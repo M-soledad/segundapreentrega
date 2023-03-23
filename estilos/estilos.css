@@ -24,7 +24,6 @@ header {
 
 li:hover {
   text-shadow: 2px 2px 10px white;
-  /*Aca le podrias agregar algunos estilos a los links cuando el cursor esta encima, para que el usuario sepa que es un link (y queda mas lindo) */
 }
 
 .flex {
@@ -96,9 +95,9 @@ article {
 }
 
 .border {
-  background-color: rgb(47, 46, 46);
+  background-color: rgb(244, 220, 84);
   margin: 5px;
-  color: white;
+  color: rgb(10, 10, 10);;
 }
 
 footer {
