@@ -136,6 +136,10 @@ footer {
 .navbar-brand img {
   width: 60px;
 }
+
+.navbar-default{
+  background-color: rgba(42, 39, 37, 0.716);
+}
 nav {
   min-height: 100px !important;
   display: flex;
@@ -143,15 +147,14 @@ nav {
   align-items: center;
   position: relative;
   height: 100%;
+  background-color:rgba(42, 39, 37, 0.716);
 }
 footer div:first-child {
   display: flex;
   justify-content: center;
 }
 
-/*Aca podes ir agregando propiedades que se aplicarian cuando la pantalla
-llegue a 1024px de ancho, lo cual es como una tablet, ahi te acomode el nav para
-que quede bien en tablet, capaz tengas que acomodarlo mas para mobile */
+
 @media only screen and (max-width: 1024px) {
   body {
     padding: 0;

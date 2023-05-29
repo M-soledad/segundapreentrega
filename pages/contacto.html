@@ -43,12 +43,19 @@
 
     <main>
       <div>
-        <img
-          src="../imagenes/paginaenconstruccion.jpg"
-          alt="casco de construcción, conos de señalización y pizzarra con la leyenda pagina en construccion"
-        />
+          <form>
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required><br>
+              <label for="asunto">Asunto:</label>
+              <input type="text" id="asunto" name="asunto" required><br>
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje" required></textarea><br>
+              <input type="submit" value="Enviar">
+          </form>
       </div>
-    </main>
+  </main>
 
     <footer>
       <div>
