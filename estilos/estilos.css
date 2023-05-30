@@ -48,6 +48,7 @@ h1 {
   color: goldenrod;
   padding: 30px;
   border: 5px solid;
+  text-align: center;
 }
 
 .sectionIndex {
@@ -103,10 +104,11 @@ article {
 footer {
   background-color: rgba(42, 39, 37, 0.716);
   font-family: "Poppins", sans-serif;
-  text-align: right;
+  text-align: center;
   font-weight: bold;
   font-size: 10px;
   line-height: 25px;
+  width: 100%;
 }
 #servicios-section {
   flex: 1;
@@ -125,7 +127,7 @@ footer {
 }
 .renglon {
   display: flex;
-  flex-direction: row;
+  flex-direction: column
 }
 .navbar-brand {
   float: none;
@@ -137,9 +139,7 @@ footer {
   width: 60px;
 }
 
-.navbar-default{
-  background-color: rgba(42, 39, 37, 0.716);
-}
+
 nav {
   min-height: 100px !important;
   display: flex;
@@ -148,6 +148,10 @@ nav {
   position: relative;
   height: 100%;
   background-color:rgba(42, 39, 37, 0.716);
+}
+
+.navbar-default{
+  background-color: rgba(42, 39, 37, 0.716);
 }
 footer div:first-child {
   display: flex;
@@ -185,44 +189,55 @@ input[type="submit"] {
   transition: background-color 0.3s ease-in-out;
 
 
-@media only screen and (max-width: 1024px) {
-  body {
-    padding: 0;
-    margin: 0;
+  @media only screen and (max-width: 1024px) {
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    header {
+      height: auto;
+    }
+    nav img {
+      position: relative;
+      transform: translateY(0);
+    }
+    nav {
+      flex-direction: column;
+    }
   }
-  header {
-    height: auto;
-  }
-  nav img {
-    position: relative;
-    transform: translateY(0);
-  }
-  nav {
-    flex-direction: column;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .navbar-nav {
-    margin: 20px -15px 40px -15px;
-  }
-  .navbar-brand {
-    justify-content: center;
-    margin-top: 40px;
-  }
-  .imagenPrincipal {
-    margin: 0;
-  }
-  .sectionIndex {
-    margin: 0;
-  }
-  footer div ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .renglon {
-    flex-direction: column;
-    align-items: center;
-  }
+  
+  @media only screen and (max-width: 768px) {
+    .navbar-nav {
+      margin: 20px -15px 40px -15px;
+    }
+    .navbar-brand {
+      justify-content: center;
+      margin-top: 40px;
+    }
+    .imagenPrincipal {
+      margin: 0;
+    }
+    .sectionIndex {
+      margin: 0; 
+    }
+
+    
+    footer div ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      padding: 0;
+    }
+    
+    footer div ul li {
+      margin: 5px;
+    }
+    
+    .renglon {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
 }
