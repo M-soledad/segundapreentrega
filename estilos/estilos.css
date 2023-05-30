@@ -205,45 +205,28 @@ input[type="submit"] {
     }
   }
   
-  @media only screen and (max-width: 768px) {
-    .navbar-nav {
-      margin: 20px -15px 40px -15px;
-    }
-    .navbar-brand {
-      justify-content: center;
-      margin-top: 40px;
-    }
-    .imagenPrincipal {
-      margin: 0;
-      width: 100%; 
-    }
-    .sectionIndex {
-      margin: 0; 
-    }
-
-
-    body{
-      margin: 0;
-      padding: 0;
-    }
-
-    
-    footer div ul {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      list-style: none;
-      padding: 0;
-    }
-    
-    footer div ul li {
-      margin: 5px;
-    }
-    
-    .renglon {
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-    }
+@media only screen and (max-width: 768px) {
+  .navbar-nav {
+    margin: 20px -15px 40px -15px;
+  }
+  .navbar-brand {
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .imagenPrincipal {
+    margin: 0;
+  }
+  .sectionIndex {
+    margin: 0;
+  }
+  footer div ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .renglon {
+    flex-direction: column;
+    align-items: center;
+  }
 }
