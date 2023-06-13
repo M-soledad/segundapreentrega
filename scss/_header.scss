@@ -1,0 +1,23 @@
+header {
+    background-color: rgba(42, 39, 37, 0.716);
+    height: 100px;
+}
+
+li:hover {
+    text-shadow: 2px 2px 10px white;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li {
+    display: inline-block;
+}

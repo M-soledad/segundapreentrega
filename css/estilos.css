@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap");
+header {
+  background-color: rgba(42, 39, 37, 0.716);
+  height: 100px; }
+
+li:hover {
+  text-shadow: 2px 2px 10px white; }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+ul li {
+  display: inline-block; }
+
+footer {
+  background-color: rgba(42, 39, 37, 0.716);
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 25px; }
+  footer div:first-child {
+    display: flex;
+    justify-content: center; }
+
+footer div:first-child {
+  display: flex;
+  justify-content: center; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #f5f4f4;
+  margin: 0px 100px 0 100px;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  /* CONSEJOS */ }
+  body #section-body,
+  body #consejos-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1; }
+  body h1 {
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 50px;
+    color: goldenrod;
+    padding: 30px;
+    border: 5px solid;
+    text-align: center; }
+  body .sectionIndex {
+    padding: 40px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-left: 50px; }
+  body .imagenPrincipal {
+    margin: 100px auto;
+    width: 100%;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../imagenes/imagenPrincipal.jpg); }
+  body article {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row; }
+    body article .uno {
+      margin: 25px 30px;
+      color: black; }
+    body article .dos {
+      margin: 25px 30px;
+      color: black; }
+  body .grilla {
+    background-color: #f6e9a2;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    justify-content: center;
+    flex: 1; }
+    body .grilla .border {
+      background-color: #f4dc54;
+      margin: 5px;
+      color: #0a0a0a; }
+  body #servicios-section {
+    flex: 1;
+    justify-content: center;
+    gap: 20px; }
+    body #servicios-section .renglon {
+      gap: 20px; }
+      body #servicios-section .renglon img {
+        width: 100px; }
+  body .columna {
+    display: flex;
+    flex-direction: column; }
+  body .renglon {
+    display: flex;
+    flex-direction: column; }
+  body .navbar-brand {
+    float: none;
+    display: flex;
+    align-items: center;
+    padding: 0; }
+    body .navbar-brand img {
+      width: 60px; }
+  body nav {
+    min-height: 100px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    background-color: rgba(42, 39, 37, 0.716); }
+    body nav .navbar-default {
+      background-color: rgba(42, 39, 37, 0.716); }
+  body form {
+    width: 400px;
+    margin: 0 auto; }
+    body form label {
+      display: block;
+      margin-bottom: 10px; }
+    body form input,
+    body form textarea {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box; }
+    body form input[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out; }
+  @media only screen and (max-width: 1024px) {
+    body body {
+      padding: 0;
+      margin: 0; }
+    body header {
+      height: auto; }
+    body nav img {
+      position: relative;
+      transform: translateY(0); }
+    body nav {
+      flex-direction: column; } }
+  @media only screen and (max-width: 768px) {
+    body .navbar-nav {
+      margin: 20px -15px 40px -15px; }
+    body .navbar-brand {
+      justify-content: center;
+      margin-top: 40px; }
+    body .imagenPrincipal {
+      margin: 0; }
+    body .sectionIndex {
+      margin: 0; }
+    body footer div ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    body .renglon {
+      flex-direction: column;
+      align-items: center; } }
