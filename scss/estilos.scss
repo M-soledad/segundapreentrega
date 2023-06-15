@@ -1,6 +1,10 @@
+$color-principal: rgb(249, 244, 244);
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap");
 @import "header";
 @import "footer";
+@import "form";
+
 
 * {
     margin: 0;
@@ -8,7 +12,7 @@
     }
 
     body {
-        background-color: rgb(245, 244, 244);
+        background-color: $color-principal;
         margin: 0px 100px 0 100px;
         font-family: "Poppins", sans-serif;
         min-height: 100vh;
@@ -19,6 +23,7 @@
             flex-direction: column;
             flex: 1;
         }
+    }
 
 
 h1 {
@@ -134,36 +139,7 @@ nav {
 
 
 
-form {
-    width: 400px;
-    margin: 0 auto;
 
-    label {
-    display: block;
-    margin-bottom: 10px;
-    }
-
-    input,
-    textarea {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    }
-
-    input[type="submit"] {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    }
-}
 
 @media only screen and (max-width: 1024px) {
     body {
@@ -213,6 +189,5 @@ form {
     .renglon {
     flex-direction: column;
     align-items: center;
-}
 }
 }
