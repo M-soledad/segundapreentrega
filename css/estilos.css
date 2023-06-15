@@ -4,7 +4,7 @@ header {
   height: 100px; }
 
 li:hover {
-  text-shadow: 2px 2px 10px white; }
+  text-shadow: 2px 2px 10px #efc742; }
 
 .flex {
   display: flex;
@@ -19,7 +19,7 @@ ul li {
   display: inline-block; }
 
 footer {
-  background-color: rgba(42, 39, 37, 0.716);
+  background-color: #f8f8f8;
   font-family: "Poppins", sans-serif;
   text-align: center;
   font-weight: bold;
@@ -109,7 +109,7 @@ article {
 
 /* CONSEJOS */
 .grilla {
-  background-color: #f6e9a2;
+  background-color: #f4ebb6;
   display: grid;
   grid-template-columns: 2fr 2fr;
   grid-template-rows: 2fr 2fr 2fr 2fr;
@@ -154,7 +154,7 @@ nav {
   height: 100%;
   background-color: rgba(42, 39, 37, 0.716); }
   nav .navbar-default {
-    background-color: rgba(42, 39, 37, 0.716); }
+    background-color: rgba(193, 81, 7, 0.716); }
 
 @media only screen and (max-width: 1024px) {
   body {
