@@ -205,8 +205,6 @@ tr:hover {
     flex-direction: column; } }
 
 @media only screen and (max-width: 768px) {
-  body {
-    overflow-y: hidden; }
   .navbar-nav {
     margin: 20px -15px 40px -15px; }
   .navbar-brand {
