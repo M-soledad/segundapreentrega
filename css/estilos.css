@@ -224,4 +224,6 @@ tr:hover {
     align-items: center; }
   .renglon {
     flex-direction: column;
-    align-items: center; } }
+    align-items: center; }
+  form {
+    margin: 0; } }
