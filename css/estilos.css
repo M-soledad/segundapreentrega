@@ -35,7 +35,8 @@ footer div:first-child {
 
 form {
   width: 400px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  height: auto; }
   form label {
     display: block;
     margin-bottom: 10px; }
@@ -59,7 +60,8 @@ form {
 
 table {
   width: 100%;
-  border-collapse: collapse; }
+  border-collapse: collapse;
+  text-transform: capitalize; }
 
 th, td {
   padding: 8px;
@@ -123,6 +125,10 @@ article {
     color: black; }
 
 /* CONSEJOS */
+.tips {
+  font-size: 25px;
+  text-align: center; }
+
 .grilla {
   background-color: #f4ebb6;
   display: grid;
@@ -131,7 +137,7 @@ article {
   justify-content: center;
   flex: 1; }
   .grilla .border {
-    background-color: #f4dc54;
+    background-color: rgba(244, 220, 84, 0.49);
     margin: 5px;
     color: #0a0a0a; }
 
