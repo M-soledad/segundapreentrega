@@ -36,7 +36,7 @@ footer div:first-child {
 form {
   width: 400px;
   margin: 0 auto;
-  height: auto; }
+  height: 500px; }
   form label {
     display: block;
     margin-bottom: 10px; }
